@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پرهام مؤید - سایت شخصی</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>پرهام مؤید</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">درباره من</a></li>
+                    <li><a href="#portfolio">نمونه‌کارها</a></li>
+                    <li><a href="#contact">تماس</a></li>
+                    <li><a href="/survey">ارسال پیام</a></li>
+                    <li><a href="https://coffeete.ir/parhamoayed">حمایت مالی</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>درباره من</h2>
+            <p>من پرهام مؤید هستم، توسعه‌دهنده وب و طراح رابط کاربری. تخصص من در طراحی و توسعه وب‌سایت‌های کاربرپسند و مدرن است.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>نمونه‌کارها</h2>
+            <div class="portfolio-item">
+                <h3>نمونه‌کار ۱</h3>
+                <p>توضیحات کوتاه درباره این پروژه.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>نمونه‌کار ۲</h3>
+                <p>توضیحات کوتاه درباره این پروژه.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="articles">
+        <div class="container">
+            <h2>مقالات</h2>
+            <div class="article-item">
+                <h3>مقاله ۱</h3>
+                <p>خلاصه‌ای از مقاله اول.</p>
+                <a href="#">ادامه مطلب</a>
+            </div>
+            <div class="article-item">
+                <h3>مقاله ۲</h3>
+                <p>خلاصه‌ای از مقاله دوم.</p>
+                <a href="#">ادامه مطلب</a>
+            </div>
+            <!-- می‌توانید مقالات بیشتری اضافه کنید -->
+        </div>
+    </section>
+    
+    <section id="podcasts">
+        <div class="container">
+            <h2>پادکست‌ها</h2>
+            <div class="podcast-item">
+                <h3>پادکست ۱</h3>
+                <audio controls>
+                    <source src="podcast1.mp3" type="audio/mpeg">
+                    مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+                </audio>
+            </div>
+            <div class="podcast-item">
+                <h3>پادکست ۲</h3>
+                <audio controls>
+                    <source src="podcast2.mp3" type="audio/mpeg">
+                    مرورگر شما از پخش این فایل پشتیبانی نمی‌کند.
+                </audio>
+            </div>
+            <!-- می‌توانید پادکست‌های بیشتری اضافه کنید -->
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>تماس با من</h2>
+            <p>برای ارتباط با من می‌توانید از طریق ایمیل یا شبکه‌های اجتماعی در تماس باشید.</p>
+            <ul>
+                <li>ایمیل: parham@example.com</li>
+               
+                <li style="display: inline-block; ">تلفن</li>
+                <li style="display: inline-block;direction: ltr;">+989104166898</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2024 پرهام مؤید. تمامی حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

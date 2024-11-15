@@ -1,0 +1,50 @@
+/* استایل‌های عمومی که از قبل داشتیم... */
+
+#comments-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#comments-section h2 {
+    text-align: center;
+}
+
+.comment {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.comment h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.comment p {
+    margin: 5px 0 0;
+}
+
+/* استایل‌های ریسپانسیو */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    #comments-section {
+        padding: 15px;
+    }
+
+    .comment {
+        padding: 10px;
+    }
+}

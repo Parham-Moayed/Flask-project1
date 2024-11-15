@@ -1,0 +1,296 @@
+*{
+    font-family: "Vazirmatn", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    direction: rtl;
+    text-align: right;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.portfolio-item {
+    background: #f4f4f4;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* استایل‌های عمومی که از قبل داشتیم... */
+
+form {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* استایل‌های ریسپانسیو */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+/* استایل‌های عمومی که از قبل داشتیم... */
+
+#comments-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#comments-section h2 {
+    text-align: center;
+}
+
+.comment {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.comment h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.comment p {
+    margin: 5px 0 0;
+}
+
+/* استایل‌های ریسپانسیو */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    #comments-section {
+        padding: 15px;
+    }
+
+    .comment {
+        padding: 10px;
+    }
+}
+#comments-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#comments-section h2 {
+    text-align: center;
+}
+
+.comment {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.comment h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.comment p {
+    margin: 5px 0 0;
+}
+
+/* استایل‌های ریسپانسیو */
+@media (max-width: 600px) {
+    #comments-section {
+        padding: 15px;
+    }
+
+    .comment {
+        padding: 10px;
+    }
+}
+
+/* استایل‌های مقالات */
+#articles {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#articles h2 {
+    text-align: center;
+}
+
+.article-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.article-item h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.article-item p {
+    margin: 5px 0 10px;
+}
+
+.article-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-item a:hover {
+    text-decoration: underline;
+}
+
+/* استایل‌های پادکست‌ها */
+#podcasts {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#podcasts h2 {
+    text-align: center;
+}
+
+.podcast-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.podcast-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+/* ریسپانسیو سازی */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .article-item, .podcast-item {
+        padding: 10px;
+    }
+
+    .article-item h3, .podcast-item h3 {
+        font-size: 1em;
+    }
+}
